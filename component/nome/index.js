@@ -1,7 +1,6 @@
 import React from 'react'
 
 export default function Nome({props}) {
-  console.log("Nome -> props", props)
   return (
     <>
     <div className="header">

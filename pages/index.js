@@ -4,7 +4,6 @@ import List from '../component/list/index'
 import Nome from '../component/nome'
 
 export default function Home(props) {
-  console.log("Home -> props", props)
   return (
     <div>
       Deu bom!!
@@ -40,6 +39,6 @@ export async function getStaticProps(context) {
     props: {
       pokemon,
       data
-    }, // will be passed to the page component as props
+    }
   }
 }
