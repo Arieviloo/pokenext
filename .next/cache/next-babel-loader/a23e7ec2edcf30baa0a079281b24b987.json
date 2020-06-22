@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from 'react';\nexport default function List(_ref) {\n  var pok = _ref.pok;\n  return __jsx(\"div\", null, pok.map(function (e) {\n    return __jsx(\"li\", null, e.pokemon_species.name);\n  }));\n}","map":null,"metadata":{},"sourceType":"module"}

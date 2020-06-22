@@ -1,0 +1,1 @@
+{"ast":null,"code":"var __jsx = React.createElement;\nimport React from \"react\"; // import { Container } from './styles';\n\nfunction Sobre() {\n  return __jsx(\"div\", null, __jsx(\"span\", null, \"sobre\"));\n}\n\nexport default Sobre;","map":null,"metadata":{},"sourceType":"module"}
